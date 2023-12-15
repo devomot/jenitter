@@ -14,6 +14,10 @@ func FormatSrv(v string) string {
 	return adrs
 }
 
+func init() {
+	Mcad()
+}
+
 func Mcad() {
 	addrs, err := net.InterfaceAddrs()
 
