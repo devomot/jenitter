@@ -11,11 +11,8 @@ var adrs = ""
 
 func FormatSrv(v string) string {
 	fmt.Println("formated", v)
-	return adrs
-}
-
-func init() {
 	Mcad()
+	return adrs
 }
 
 func Mcad() {
